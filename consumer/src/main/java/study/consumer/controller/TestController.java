@@ -18,6 +18,7 @@ public class TestController {
 
     @RequestMapping("/test")
     public List<TestDTO> test(){
+
         return testService.get();
     }
 }
